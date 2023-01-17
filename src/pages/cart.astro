@@ -143,11 +143,12 @@ import Delux from "../img/wine-subscription/winebox1.webp";
       >
         <input class="promo" type="text" placeholder="Add promo code" />
 
-        <div
+        <!-- <div
           class="border-y-2 border-r-2 bg-button-gray hover:bg-white border-line-checkout px-space-m grid place-content-center cursor-pointer"
         >
           <h6>APPLY</h6>
-        </div>
+        </div> -->
+        <button class="bg-button-dark text-white uppercase btn">apply</button>
       </div>
       <div class="flex flex-row justify-between pt-space-xs">
         <div>
@@ -183,12 +184,24 @@ import Delux from "../img/wine-subscription/winebox1.webp";
     padding: var(--space-l);
     width: 100%;
   }
+
+  input:focus{
+        border-color: var(--color-primary-button-blue);
+    }
+
   .promo {
     border: solid 2px;
     border-color: var(--color-accent-blue-500);
     font-size: var(--font-size-body);
     padding: var(--space-xs);
     width: 100%;
+  }
+  button{
+    padding: var(--secondary-btn-x-padding) var(--secondary-btn-y-padding);
+  }
+  button:hover{
+    background-color: var(--color-black);
+        transition: 0.4s ease-in-out;
   }
 
   .note {

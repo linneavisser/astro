@@ -81,6 +81,7 @@ module.exports = {
 		  "bespoke-blue": "var(--bespoke-blue)",
 		  "virtual-blue": "var(--color-accent-blue-300)",
 		  "winebox-blue": "var(--color-accent-blue-50)",
+		  "button-dark" :"var(--color-button-dark-grey)",
 		},
   
 		  },
